@@ -2,14 +2,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Use min-height to ensure content doesn't get cut off */
     margin: 0;
+    background-color: #f2f2f2; /* Set a light background color */
 }
 
 #sections {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center; /* Center child elements horizontally */
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 100px; /* Adjust margin to your preference */
+}
+
+h1 {
+    color: #FF5733;
+    font-size: 46px; /* Increase the font size to your desired value */
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out; /* Add border transition */
+    border: 2px solid transparent; /* Add transparent border initially */
+    padding: 5px; /* Add padding for spacing */
 }
 
 #sections a {
