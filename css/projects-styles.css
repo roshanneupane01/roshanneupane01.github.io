@@ -118,6 +118,7 @@ header {
         width: 90%; /* Set the video width to 100% of the screen width */
         height: auto; /* Allow the height to adjust proportionally */
         margin: 0px 10px 50px 20px;
+        object-fit: cover; /* Maintain aspect ratio and cover container */
     }
 
     /* Center the header vertically in the middle of the screen */
