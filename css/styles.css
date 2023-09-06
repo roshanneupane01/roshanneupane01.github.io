@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh; /* Use min-height to ensure content doesn't get cut off */
     margin: 0;
-    background-color: #f2f2f2; /* Set a light background color */
+    background-color: #e2ffff; /* Set a light background color */
 }
 
 #sections {
