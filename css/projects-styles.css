@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+    background-color: #e5f7fb; /* Set a light background color */
+}
+
+header {
+    background-color: #e5f7fb;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+    color: #FF5733;
+}
+
+hr {
+    background-color: #FF5733; /* Red color for horizontal lines */
+    height: 2px;
+    border: none;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 28px;
+    color: #FF5733;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #457580;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+a {
+    font-size: 18px; /* Match the font size of index.html */
+    color: #FF5733; /* Match the link color of index.html */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #333; /* Change the link color on hover */
+}
+
+/* Style the "About Me" link */
+.home-page-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px 0px 20px 20px;
+    background-color: #FF5733;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.home-page-link:hover {
+    background-color: #457580; /* Darken the background color on hover */
+    color: white;
+}
+
+/* Center the video in the middle of the screen */
+iframe#repolite-video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 300px;
+}
+
+/* Center the text content in the middle of the screen */
+.content {
+    text-align: center;
+}
+
+/* Center the header vertically in the middle of the screen */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5f7fb;
+    color: white;
+    padding: 10px;
+}
