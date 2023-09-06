@@ -111,3 +111,17 @@ header {
     text-align: center;
     padding: 10px;
 }
+
+/* media query for iPhone screens */
+@media only screen and (max-width: 767px) {
+    iframe#repolite-video {
+        width: 90%; /* Set the video width to 100% of the screen width */
+        height: auto; /* Allow the height to adjust proportionally */
+        margin: 0px 10px 50px 20px;
+    }
+
+    /* Center the header vertically in the middle of the screen */
+    header {
+        text-align: center;
+    }
+}
