@@ -35,15 +35,15 @@ body {
 @media (max-width: 680px) {
 
     #sections a{
-        font-size: 16px;
+        font-size: 14px;
     }
     .home-page-button {
         display: flex;
         justify-content: center;
     }
     .home-page-button a {
-        padding: 10px 100px;
-        margin-bottom: 3px;
+        padding: 15px 100px;
+        margin-bottom: 20px;
     }
 }
 
