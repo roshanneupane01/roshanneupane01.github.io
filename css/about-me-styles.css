@@ -3,7 +3,9 @@ body {
     margin: 0;
 }
 
-header {
+.header {
+    display: flex;
+    justify-content: center;
     background-color: #457580;
     color: white;
     text-align: center;
@@ -11,9 +13,6 @@ header {
 }
 
 #sections {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 20px;
 }
 
