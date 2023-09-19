@@ -1,11 +1,16 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: Arial, sans-serif;
     margin: 0;
+    height: 100vh;
 }
 
 .header {
     display: flex;
     justify-content: center;
+    margin-top: 0;
     background-color: #457580;
     color: white;
     text-align: center;
@@ -13,6 +18,9 @@ body {
 }
 
 #sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -24,8 +32,23 @@ body {
     transition: color 0.3s ease-in-out;
 }
 
+@media (max-width: 680px) {
+
+    #sections a{
+        font-size: 16px;
+    }
+    .home-page-button {
+        display: flex;
+        justify-content: center;
+    }
+    .home-page-button a {
+        padding: 10px 100px;
+        margin-bottom: 3px;
+    }
+}
+
 #sections a:hover {
-    color: #FF5733; /* Highlighted link color on hover */
+    color: #FF5733;
 }
 
 h1 {
@@ -35,8 +58,13 @@ h1 {
     color: #457580;
 }
 
+.about-me-h1 {
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
 hr {
-    background-color: #FF5733; /* Red color for horizontal lines */
+    background-color: #FF5733;
     height: 2px;
     border: none;
     margin: 20px 0;
@@ -51,18 +79,21 @@ p {
 }
 
 a {
-    display: inline-block;
     padding: 10px 20px;
     background-color: #FF5733;
     color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    margin-top: 20px;
     transition: background-color 0.3s ease-in-out;
 }
 
 a:hover {
-    background-color: #457580; /* Darken the background color on hover */
+    background-color: #457580;
     color: white;
+}
+
+.home-page-button {
+    display: flex;
+    margin-bottom: 20px;
 }
